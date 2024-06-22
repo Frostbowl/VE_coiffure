@@ -1,3 +1,9 @@
+#Site vitrine de Madame Esther Valérie
+Professionnelle de la coiffure, esthétique et bien-être du corps
+
+Réalisé par MASCLET Clément, tous droits réservés, 2024.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
