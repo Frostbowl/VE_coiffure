@@ -1,0 +1,37 @@
+#logo{
+    width: 8rem;
+    border-radius: 100%;
+}
+
+
+.text-logo{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    top: 25%;
+    left: 3.5%;
+}
+
+.slogan{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border-left: 2px solid black;
+    padding-left: 0.5rem;
+    padding-bottom: 0;
+}
+
+.slogan h1, .slogan h2{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15%;
+    width: 70%;
+}
