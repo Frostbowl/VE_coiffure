@@ -5,6 +5,8 @@
 .card{
     width: 17rem;
     align-items: center;
+    margin-left: 5rem;
+    height: 22rem;
 }
 
 .card-header{
@@ -18,8 +20,24 @@ section{
     justify-content: center;
 }
 
+
+
 .rightSide{
     width: 50%;
+    border-left: 2px solid black;
+    text-align: center;
+    padding-left: 4rem;
+}
+
+.rightSide h1{
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.rightSide h2, .rightSide h3{
+    font-size: 1.55rem;
+    margin-bottom: 1.5rem;
 }
 .container{
     display: flex;
@@ -29,5 +47,6 @@ section{
 
 .home{
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,233,226,1) 12%);
-    height: 100%;
+    padding-bottom: 1rem;
 }
+

@@ -6,8 +6,12 @@ const Header =() =>{
     return(
         <div className="top">
             <nav className="navbar navbar-expand-lg ">
-                <div className="text-logo ">VE</div>
-                <Link to="/" className="navbar-brand"><img src="../img/noun-hand-drawn-wreath-2650151.svg" alt="VE Coiffure" id="logo"/></Link>
+                <Link to="/" className="navbar-brand">
+                    <div className="logo-container">
+                        <div className="text-logo ">VE</div>
+                        <img src="../img/laurrier.svg" alt="VE Coiffure" id="logo"/>
+                    </div>
+                </Link>
                 <div className="slogan">
                     <h1>Coiffure</h1>
                     <h2>&</h2>
@@ -18,11 +22,11 @@ const Header =() =>{
                 </button>
                 <div className="collapse navbar-collapse headBar" id="navbarSupportedContent">
                     <div className="navigation">
-                        <Link to='/' className="nav-link" aria-current='page'>Accueil</Link>
-                        <Link to='/' className="nav-link" aria-current='page'>Coiffure</Link>
-                        <Link to='/' className="nav-link" aria-current='page'>Bien-être</Link>
-                        <Link to='/' className="nav-link" aria-current='page'>Esthétique</Link>
-                        <Link to='/' className="nav-link" aria-current='page'>Contact</Link>
+                        <Link to='/' className="nav-link" aria-current='page'><img src="../img/home.svg" alt="home" />Accueil</Link>
+                        <Link to='/' className="nav-link" aria-current='page'><img src="../img/hair.svg" alt="hairdress" />Coiffure</Link>
+                        <Link to='/' className="nav-link" aria-current='page'><img src="../img/zen.svg" alt="wellness" />Bien-être</Link>
+                        <Link to='/' className="nav-link" aria-current='page'><img src="../img/eye.svg" alt="beauty" />Esthétique</Link>
+                        <Link to='/' className="nav-link" aria-current='page'><img src="../img/contact.svg" alt="contact" />Contact</Link>
                     </div>
                 </div>
             </nav>

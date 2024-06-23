@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
 
 *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     font-family: "Playwrite US trad";
-    font-weight: bold;
-    font-style: normal;
 }
