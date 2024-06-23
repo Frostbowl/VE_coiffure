@@ -1,0 +1,47 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: rgb(255, 233, 226);
+    border-top: 2px solid black;
+    padding-top: 0.5rem;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+#social a{
+    text-align: start;
+    line-height: 1.4rem;
+    color: black;
+}
+
+#social a:hover{
+    color: rgb(255, 0, 0, 0.6);
+}
+
+
+#link a{
+    color: black;
+    text-align: center;
+    line-height: 0.4rem;
+}
+
+#link a:hover{
+    color: rgb(255, 0, 0, 0.6);
+}
+
+footer h1{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer p, footer a, footer address{
+    font-size: 0.6rem;
+    text-decoration: none;
+}

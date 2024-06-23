@@ -1,6 +1,15 @@
+.logo-container {
+    position: relative;
+    display: inline-block;
+    width: 7rem;
+    height: auto;
+    margin-top: -1rem;
+    margin-left: 1rem;
+}
+
 #logo{
-    width: 8rem;
-    border-radius: 100%;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -8,13 +17,15 @@
     position: absolute;
     font-size: 2rem;
     font-weight: bold;
-    top: 25%;
-    left: 2.7%;
+    top: 45%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: red;
 }
 
 .slogan{
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 10%;
     border-left: 2px solid black;
     padding-left: 0.5rem;
@@ -33,10 +44,33 @@
     justify-content: space-around;
     align-items: center;
     margin-left: 15%;
+    padding-bottom: 0.5rem;
     width: 70%;
+    color: red;
+    border-bottom: 1px solid black;
 }
 
+.navigation .nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 0.4rem;
+    padding-left: 0.1rem;
+    padding-bottom: 0.2rem;
+}
+
+.navigation .nav-link img{
+    width: 2rem;
+    height: auto;
+}
+
+.navigation .nav-link:hover{
+    background-color: rgb(255, 0, 0, 0.1);
+    border-radius: 13%;
+}
+
+
 .top{
-    
-background: linear-gradient(180deg, rgba(255,94,94,1) 0%, rgba(255,255,255,1) 80%);
+    background: white;
 }
