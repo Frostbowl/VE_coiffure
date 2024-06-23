@@ -1,0 +1,15 @@
+.card-header{
+    width: 100%;
+    color: white;
+}
+
+.titreCoiffure h1{
+    font-size: 2rem;
+    text-decoration: underline red;
+    
+}
+
+.card-img{
+    height: 70%;
+    width: auto;
+}

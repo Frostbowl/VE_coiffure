@@ -23,7 +23,7 @@ const Header =() =>{
                 <div className="collapse navbar-collapse headBar" id="navbarSupportedContent">
                     <div className="navigation">
                         <Link to='/' className="nav-link" aria-current='page'><img src="../img/home.svg" alt="home" />Accueil</Link>
-                        <Link to='/' className="nav-link" aria-current='page'><img src="../img/hair.svg" alt="hairdress" />Coiffure</Link>
+                        <Link to='/coiffure' className="nav-link" aria-current='page'><img src="../img/hair.svg" alt="hairdress" />Coiffure</Link>
                         <Link to='/' className="nav-link" aria-current='page'><img src="../img/zen.svg" alt="wellness" />Bien-être</Link>
                         <Link to='/' className="nav-link" aria-current='page'><img src="../img/eye.svg" alt="beauty" />Esthétique</Link>
                         <Link to='/' className="nav-link" aria-current='page'><img src="../img/contact.svg" alt="contact" />Contact</Link>

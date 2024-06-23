@@ -16,9 +16,12 @@ const Home =() =>{
                 </section>
                 <section className="rightSide">
                     <h1>Valérie </h1>
-                    <h2>Professionnelle de la coiffure depuis x années, vous accueille dans son salon du "horraires d'ouvertures"</h2>
-                    <h2>Venez profiter, le temps d'une prestation, d'un cadre agréable et chaleureux.</h2>
-                    <h3>A très vite, chez VE Coiffure et esthétique !</h3>
+                    <h2>Professionnelle de la coiffure depuis <span className="red">x années</span>, vous accueille dans son salon 
+                    du <span className="red">"horraires d'ouvertures"</span>.
+                    </h2>
+                    <h2>Venez profiter, le temps d'une prestation, d'un cadre 
+                        <span className="nude"> agréable </span> et <span className="nude">chaleureux</span> chaleureux.</h2>
+                    <h3>A très vite, chez <span className="red">VE Coiffure et esthétique</span>  !</h3>
 
                 </section>
             </div>

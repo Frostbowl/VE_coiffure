@@ -20,7 +20,13 @@ section{
     justify-content: center;
 }
 
+.red{
+    color: red;
+}
 
+.nude{
+    color: #EBC8B2;
+}
 
 .rightSide{
     width: 50%;
@@ -33,6 +39,7 @@ section{
     font-size: 2.2rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: red;
 }
 
 .rightSide h2, .rightSide h3{
@@ -46,7 +53,6 @@ section{
 }
 
 .home{
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,233,226,1) 12%);
     padding-bottom: 1rem;
 }
 
