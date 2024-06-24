@@ -5,11 +5,31 @@
 
 .titreCoiffure h1{
     font-size: 2rem;
-    text-decoration: underline red;
+    padding-top: 1rem;
+    margin-bottom: -5rem;
     
 }
 
+
 .card-img{
-    height: 70%;
+    height: 25rem;
     width: auto;
+}
+
+.card{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.cards{
+    margin-right: 2rem;
+}
+
+.prestation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -8rem;
 }

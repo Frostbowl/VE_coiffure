@@ -29,7 +29,6 @@
     left: 10%;
     border-left: 2px solid black;
     padding-left: 0.5rem;
-    padding-bottom: 0;
 }
 
 .slogan h1, .slogan h2{
@@ -73,4 +72,5 @@
 
 .top{
     background: white;
+    margin-bottom: -1.6rem;
 }

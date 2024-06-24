@@ -11,7 +11,7 @@ const Home =() =>{
                         <div className="card-header">
                             <h2>Valérie Esther</h2>
                         </div>
-                        <img src="../img/photoporo.jpg" alt="Valérie Esther" className="profilPic" />
+                        <img src="../img/photoporo.jpg" alt="Valérie Esther" className="card-img profilPic" />
                     </div>
                 </section>
                 <section className="rightSide">
@@ -25,6 +25,11 @@ const Home =() =>{
 
                 </section>
             </div>
+            <article className="text-center pt-5">
+                <h1><Link to='/'>Contactez-moi</Link> dès maintenant</h1>
+                <p>Pour un devis personnalisé ou une prise de rendez-vous</p>
+                <p>Tout rendez-vous non annulé au moins 24 à 48 heures à l'avance ne pourra être reporté.</p>
+            </article>
         </div>
     )
 }

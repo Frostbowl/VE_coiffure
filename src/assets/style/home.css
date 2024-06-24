@@ -2,12 +2,6 @@
     width: 8rem;
 }
 
-.card{
-    width: 17rem;
-    align-items: center;
-    margin-left: 5rem;
-    height: 22rem;
-}
 
 .card-header{
     background-color: red;
@@ -50,9 +44,17 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 12rem;
 }
 
 .home{
     padding-bottom: 1rem;
+    background-image: url('../../../public/img/banner2.png');
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
 }
 
+a{
+    color: red;
+    text-decoration: none;
+}
