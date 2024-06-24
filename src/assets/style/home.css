@@ -1,7 +1,22 @@
-.profilPic{
-    width: 8rem;
+.hello{
+    background-color: #D93654;
+    color: white;
+    text-align: center;
+    width: 33%;
+    position: absolute; 
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 5rem;
+
 }
 
+.carousel-item img{
+    width: 40rem;
+    height: 25rem;
+}
 
 .card-header{
     background-color: #D93654;
@@ -40,7 +55,8 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 12rem;
+    padding-top: 20rem;
+    position: relative;
 }
 
 .home{

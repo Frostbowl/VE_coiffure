@@ -6,8 +6,8 @@ const Header =() =>{
     return(
             <nav className="navbar navbar-expand-lg ">
                 <div className="logo text-center">
-                        <h1>VE</h1>
-                        <img src="../img/logo.svg" alt="VE Coiffure" id="logo" className="logoimg"/>
+                        <h1 id="ve">VE</h1>
+                        <img src="../img/logo4.jpg" alt="VE Coiffure" id="logo" className="logoimg"/>
                         <div className="slogan">
                             <h1>Coiffure</h1>
                             <h2>&</h2>
@@ -23,9 +23,8 @@ const Header =() =>{
                         <Link to='/coiffure' className="nav-link" aria-current='page'><img src="../img/hair.svg" alt="hairdress" />Coiffure</Link>
                         <Link to='/wellness' className="nav-link" aria-current='page'><img src="../img/zen.svg" alt="wellness" />Bien-être</Link>
                         <Link to='/' className="nav-link" aria-current='page'>
-                            <div>
+                            <div className="column">
                                 <img src="../img/manucure.svg" alt="manicure" />
-                                <span></span>
                                 <img src="../img/eye.svg" alt="beauty"/>
                             </div>Esthétique
                         </Link>
