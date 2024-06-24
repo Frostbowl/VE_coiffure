@@ -4,7 +4,7 @@
 
 
 .card-header{
-    background-color: red;
+    background-color: #D93654;
 }
 
 section{
@@ -15,11 +15,7 @@ section{
 }
 
 .red{
-    color: red;
-}
-
-.nude{
-    color: #EBC8B2;
+    color: #D93654;
 }
 
 .rightSide{
@@ -33,7 +29,7 @@ section{
     font-size: 2.2rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: red;
+    color: #D93654;
 }
 
 .rightSide h2, .rightSide h3{
@@ -55,6 +51,6 @@ section{
 }
 
 a{
-    color: red;
+    color: #D93654;
     text-decoration: none;
 }
