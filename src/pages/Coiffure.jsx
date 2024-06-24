@@ -5,9 +5,7 @@ import "../assets/style/coiffure.css"
 const Coiffure =()=>{
     return(
         <main>
-            <div className="titreCoiffure text-center p-3">
-                <h1>Retrouvez ici la liste des prestations et leur tarifs pour les soins et l'entretien de vos cheveux !</h1>
-            </div>
+            <h1 className="titre text-center p-3">Retrouvez ici la liste des prestations et leur tarifs pour les soins et l'entretien de vos cheveux !</h1>
             <div className="container-fluid text-center">
                 <div className="container prestation">
 
