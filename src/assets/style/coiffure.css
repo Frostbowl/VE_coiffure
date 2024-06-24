@@ -1,0 +1,35 @@
+.card-header{
+    width: 100%;
+    color: white;
+}
+
+.titreCoiffure h1{
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin-bottom: -5rem;
+    
+}
+
+
+.card-img{
+    height: 25rem;
+    width: auto;
+}
+
+.card{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.cards{
+    margin-right: 2rem;
+}
+
+.prestation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -8rem;
+}

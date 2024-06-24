@@ -29,7 +29,6 @@
     left: 10%;
     border-left: 2px solid black;
     padding-left: 0.5rem;
-    padding-bottom: 0;
 }
 
 .slogan h1, .slogan h2{
@@ -66,11 +65,12 @@
 }
 
 .navigation .nav-link:hover{
-    background-color: rgb(255, 0, 0, 0.1);
+    background-color: rgb(255, 233, 226);
     border-radius: 13%;
 }
 
 
 .top{
     background: white;
+    margin-bottom: -1.6rem;
 }

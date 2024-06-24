@@ -2,12 +2,6 @@
     width: 8rem;
 }
 
-.card{
-    width: 17rem;
-    align-items: center;
-    margin-left: 5rem;
-    height: 22rem;
-}
 
 .card-header{
     background-color: red;
@@ -20,7 +14,13 @@ section{
     justify-content: center;
 }
 
+.red{
+    color: red;
+}
 
+.nude{
+    color: #EBC8B2;
+}
 
 .rightSide{
     width: 50%;
@@ -33,6 +33,7 @@ section{
     font-size: 2.2rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: red;
 }
 
 .rightSide h2, .rightSide h3{
@@ -43,10 +44,17 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 12rem;
 }
 
 .home{
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,233,226,1) 12%);
     padding-bottom: 1rem;
+    background-image: url('../../../public/img/banner2.png');
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
 }
 
+a{
+    color: red;
+    text-decoration: none;
+}
