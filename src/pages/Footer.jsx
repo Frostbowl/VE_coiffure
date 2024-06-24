@@ -31,7 +31,7 @@ const Footer =() =>{
                 <p></p>
             </div>
             <div>
-                <h1>Mentions légales</h1>
+                <Link to='/mention' style={{color:'#000'}}><h1>Mentions légales</h1></Link>
             </div>
             <div id="link">
                 <h1>Prestations</h1>
