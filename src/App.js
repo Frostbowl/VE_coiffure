@@ -6,6 +6,7 @@ import Coiffure from "./pages/Coiffure";
 import Wellness from "./pages/Wellness";
 import Footer from "./pages/Footer";
 import Contact from "./pages/Contact";
+import Mentions from "./pages/Mention";
 
 
 
@@ -18,6 +19,7 @@ function App(){
           <Route path='/coiffure' element= {<Coiffure/>}/>
           <Route path='/wellness' element= {<Wellness/>}/>
           <Route path='/contact' element= {<Contact/>}/>
+          <Route path='/mention' element={<Mentions/>}/>
         </Routes>
       <Footer/>
     </div>
