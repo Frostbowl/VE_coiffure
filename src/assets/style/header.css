@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
+
+.column img:nth-child(1){
+    border-right: 3px solid black;
+}
 #ve{
     /*font-family: "Great Vibes", cursive;*/
   font-family: "Alex Brush", cursive;
