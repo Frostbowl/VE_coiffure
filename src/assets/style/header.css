@@ -1,9 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+#ve{
+    /*font-family: "Great Vibes", cursive;*/
+  font-family: "Alex Brush", cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: normal;
+    text-shadow: 5px 5px #000;
+}
 nav{
-    background-color: #D63E39;
+    background-color: #D93654;
 }
 
 .navigation span{
     border-left: 2px solid black;
+}
+
+.logoimg{
+    width: 12rem;
+    height: auto;
+    padding-left: 1rem;
 }
 
 .logo{

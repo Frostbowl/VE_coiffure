@@ -32,6 +32,7 @@ const Footer =() =>{
             </div>
             <div>
                 <Link to='/mention' style={{color:'#000'}}><h1>Mentions légales</h1></Link>
+                <Link to='/mention' style={{color:'#000'}}><h1>Certificats</h1></Link>
             </div>
             <div id="link">
                 <h1>Prestations</h1>

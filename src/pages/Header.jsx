@@ -6,8 +6,8 @@ const Header =() =>{
     return(
             <nav className="navbar navbar-expand-lg ">
                 <div className="logo text-center">
-                        <h1>VE</h1>
-                        <img src="../img/logo.svg" alt="VE Coiffure" id="logo" className="logoimg"/>
+                        <h1 id="ve">VE</h1>
+                        <img src="../img/logo4.jpg" alt="VE Coiffure" id="logo" className="logoimg"/>
                         <div className="slogan">
                             <h1>Coiffure</h1>
                             <h2>&</h2>
