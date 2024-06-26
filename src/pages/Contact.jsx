@@ -1,30 +1,61 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
 import '../assets/style/contact.css';
+import LoadingModal from "../modals/LoadingModal";
+import SendModal from "../modals/SendModal";
 
 
 const Contact = () =>{
 
-    {/*const [name, setName] = useState('');
+    const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
-    const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
+    const [prestaCoiffure, setPrestaCoiffure] = useState(false);
+    const [prestaOngle, setPrestaOngle] = useState(false);
+    const [prestaSkin, setPrestaSkin] = useState(false);
+    const [loading, setLoading] = useState(false);
+    const [showSend, setShowSend] = useState(false);
 
     const handleSubmit = (e) =>{
         e.preventDefault();
+        setLoading(true);
 
         const content = {
             to_name: 'EV Coiffure & Esthétique',
             from_name: name,
             from_email: email,
             from_phone: phone,
-            from_subject: subject,
+            presta_coiffure: prestaCoiffure ? 'Coiffure' : '',
+            presta_ongle: prestaOngle ? 'Esthétique' : '',
+            presta_skin: prestaSkin ? 'Bien-être' : '',
             from_message: message,
-        }
-    }*/}
+        };
+
+        emailjs.send(
+            process.env.REACT_APP_EMAILJS_SERVICE_ID, 
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID, 
+            content, 
+            process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+        )
+        .then((response) =>{
+            setLoading(false);
+            setShowSend(true);
+            setName('');
+            setEmail('');
+            setPhone('');
+            setMessage('');
+            setPrestaCoiffure(false);
+            setPrestaOngle(false);
+            setPrestaSkin(false);
+        });
+
+    }
+    
+    const handleCloseMessageModal = () =>{
+        setShowSend(false);
+    }
     return(
         <section>
             <h1 className="text-center fs-3 pt-2 pb-3">Réponse garantie sous 24 à 48 heures
@@ -36,40 +67,79 @@ const Contact = () =>{
                     width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="mb-4"></iframe>
                 </article>
                 <article className="contact">
-                    <form>
+                    <form onSubmit={handleSubmit}>
                         <h2 >Formulaire de contact</h2>
                         <label For="name"></label>
-                        <input type="text" name="name" placeholder="Nom et Prénom" required />
+                        <input 
+                            type="text" 
+                            name="name" 
+                            placeholder="Nom et Prénom" 
+                            value={name} 
+                            onChange={(e) => setName(e.target.value)} 
+                            required />
                         <label For="mail"></label>
-                        <input type="text" name="email" placeholder="Courriel" required />
+                        <input 
+                            type="text" 
+                            name="email" 
+                            placeholder="Courriel" 
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            required />
                         <label For="phone"></label>
-                        <input type="number" name="phone" placeholder="Numéro de téléphone" required />
+                        <input  
+                            type="number" 
+                            name="phone" 
+                            placeholder="Numéro de téléphone" 
+                            value={phone}
+                            onChange={(e) => setPhone(e.target.value)}
+                            required />
                         <fieldset>
                             <legend className="text-center">Votre demande concerne: </legend>
                             <div>
-                                <input type="checkbox" name="prestation_coiffure" />
+                                <input 
+                                    type="checkbox" 
+                                    name="prestation_coiffure" 
+                                    checked={prestaCoiffure}
+                                    onChange={(e) => setPrestaCoiffure(e.target.checked)}/>
                                 <label For="prestation_coiffure">Coiffure</label>
                             </div>
                             <div>
-                                <input type="checkbox" name="prestation_ongle" />
+                                <input 
+                                    type="checkbox" 
+                                    name="prestation_ongle" 
+                                    checked={prestaOngle}
+                                    onChange={(e) => setPrestaOngle(e.target.checked)}/>
                                 <label For="prestation_ongle">Bien-être</label>
                             </div>
                             <div className="mb-4">
-                                <input type="checkbox" name="prestation_skin" />
+                                <input 
+                                    type="checkbox" 
+                                    name="prestation_skin" 
+                                    checked={prestaSkin}
+                                    onChange={(e) => setPrestaSkin(e.target.checked)}/>
                                 <label For="prestation_skin">Esthétique</label>
                             </div>
                         </fieldset>
                         <label For="mesage"></label>
-                        <textarea name="message" placeholder="Votre message" rows='4'></textarea>
+                        <textarea 
+                            name="message" 
+                            placeholder="Votre message" 
+                            rows='4'
+                            value={message}
+                            onChange={(e) => setMessage(e.target.value)}>
+                        </textarea>
                         <div className="formBtn text-center p-4">
-                            <button type="submit" className="btn">Envoyer</button>
+                            <button type="submit" className="btn" disabled={loading}>Envoyer</button>
                         </div>
                     </form>
                 </article>
-
             </div>
-
-
+            {loading && <LoadingModal/>}
+            <SendModal
+                show = {showSend}
+                message="Email envoyé avec succès, une réponse vous sera apportée dans les plus brefs délais"
+                handleClose={handleCloseMessageModal}
+            />
         </section>
     )
 }

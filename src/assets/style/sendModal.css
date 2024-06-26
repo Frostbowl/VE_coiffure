@@ -1,0 +1,46 @@
+.send-modal {
+    color: #333; 
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.send-modal .modal-header {
+    background-color: #D93654; 
+    color: white;
+    border-bottom: none;
+}
+
+.send-modal .modal-title {
+    font-size: 1.25rem;
+}
+
+.send-modal .modal-body {
+    padding: 1rem;
+}
+
+.send-modal .modal-footer {
+    justify-content: center;
+    border-top: none;
+}
+
+.send-modal .btn {
+    background-color: #D93654; 
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.send-modal .btn:hover {
+    opacity: 0.8;
+}
+
+.send-modal .btn-secondary {
+    background-color: #D93654;
+}
+
+.send-modal .btn-secondary:hover {
+    background-color: rgb(255, 233, 226);
+    color: black;
+}
