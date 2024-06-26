@@ -7,6 +7,8 @@ import Wellness from "./pages/Wellness";
 import Footer from "./pages/Footer";
 import Contact from "./pages/Contact";
 import Mentions from "./pages/Mention";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
