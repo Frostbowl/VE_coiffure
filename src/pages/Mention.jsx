@@ -53,8 +53,8 @@ const Mentions =() =>{
 
             <h2 className="fw-bold pb-2 pt-2 text-decoration-underline">Limitations de responsabilité</h2>
             <p><strong>VE Coiffure & Esthétique</strong> ne pourra être tenu responsable des dommages directs et indirects
-            causés au métériel de l'utilisateur,<br /> lors de l'accès au site <strong>VE Coiffure & Esthétique</strong>
-            résultat soit de l'utilisation d'un matériel ne répondant pas aux spécifications <br />indiquées, soit de l'apparition d'un
+            causés au matériel de l'utilisateur,<br /> lors de l'accès au site <strong>VE Coiffure & Esthétique</strong>
+            résultant soit de l'utilisation d'un matériel ne répondant pas aux spécifications <br />indiquées, soit de l'apparition d'un
             bug ou d'une incompatibilité.</p>
 
             <h2 className="fw-bold pb-2 pt-2 text-decoration-underline">Droit applicable</h2>
