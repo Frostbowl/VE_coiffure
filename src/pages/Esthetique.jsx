@@ -5,7 +5,7 @@ import prestations from "../datas.json";
 
 const Wellness = () =>{
 
-    let dataCoif = prestations.filter(prestation => prestation.category === "Wellness");
+    let dataCoif = prestations.filter(prestation => prestation.category === "Esthetique");
 
     return(
         <main className="home">

@@ -8,17 +8,17 @@ const Home =() =>{
             <h1 className="hello">Bienvenue !</h1>
             <div className="container pt-4">
                 <section className="leftSide">
-                    <div className="carousel slide" id="carousel">
+                    <div className="carousel slide" id="carousel" data-bs-ride="carousel" >
                         <div className="carousel-inner">
-                            <div className="carousel-item">
+                            <div className="carousel-item active" data-bs-interval="2000">
                                 <h1 style={{color:'#D93654'}} className="text-center">Mes réalisations</h1>
                                 <img src="../img/slide0.png" alt="cheveux" />
                             </div>
-                            <div className="carousel-item active">
+                            <div className="carousel-item" data-bs-interval="2000" >
                                 <h1 style={{color:'#D93654'}} className="text-center">Mes réalisations</h1>
                                 <img src="../img/ongles.jpg" alt="ongles"/>
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item" data-bs-interval="2000" >
                                 <h1 style={{color:'#D93654'}} className="text-center">Mes réalisations</h1>
                                 <img src="../img/sourcils.jpg" alt="sourcils"/>
                             </div>
@@ -45,7 +45,7 @@ const Home =() =>{
                 </section>
             </div>
             <article className="text-center pt-5">
-                <h1><Link to='/'>Contactez-moi</Link> dès maintenant</h1>
+                <h1><Link to='/contact'>Contactez-moi</Link> dès maintenant</h1>
                 <p>Pour un devis personnalisé ou une prise de rendez-vous</p>
                 <p>Tout rendez-vous non annulé au moins 24 à 48 heures à l'avance ne pourra être reporté.</p>
             </article>
