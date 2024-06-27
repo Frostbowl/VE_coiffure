@@ -1,0 +1,75 @@
+[
+    {
+        "id": "1",
+        "category": "Coiffure",
+        "acte": "Balayage",
+        "tarif": "45€",
+        "temps": "environ 01h",
+        "image": "/img/hair_dress.jpg"
+    },
+    {
+        "id": "2",
+        "category": "Coiffure",
+        "acte": "Brushing",
+        "tarif": "25€",
+        "temps": "environ 30mn",
+        "image": "/img/hair_cut.jpg"
+    },
+    {
+        "id": "3",
+        "category": "Coiffure",
+        "acte": "Coupe",
+        "tarif": "25€",
+        "temps": "environ 15mn",
+        "image": "/img/coupeTest.jpg"
+    },
+    {
+        "id": "4",
+        "category": "Esthetique",
+        "acte": "Acrylique",
+        "tarif": "30€",
+        "temps": "environ 15mn"
+    },{
+        "id" : "5",
+        "category": "Coiffure",
+        "acte": "Soin",
+        "tarif": "XXX",
+        "temps": "XXX",
+        "image": "/img/serum_hair.jpg"
+    },{
+        "id" : "6",
+        "category": "Esthetique",
+        "acte": "Acrigel",
+        "tarif": "XXX",
+        "temps": "XXX",
+        "image": "/img/nailArt.jpg"
+    },{
+        "id" : "7",
+        "category": "Esthetique",
+        "acte": "Réhaussement des cils",
+        "tarif": "XXX",
+        "temps": "XXX",
+        "image": "/img/cils.jpg"
+    },{
+        "id" : "8",
+        "category": "Esthetique",
+        "acte": "Micro-blading",
+        "tarif": "XXX",
+        "temps": "XXX",
+        "image": "/img/sourcils.jpg"
+    },{
+        "id" : "9",
+        "category": "Wellness",
+        "acte": "Massage",
+        "tarif": "XXX",
+        "temps": "XXX",
+        "image": "/img/massage.jpg"
+    },{
+        "id" : "10",
+        "category": "Wellness",
+        "acte": "Modelage",
+        "tarif": "XXX",
+        "temps": "XXX",
+        "image": "/img/modelage.jpg"
+    }
+]

@@ -63,9 +63,10 @@ section{
     background-repeat: no-repeat;
     background-repeat: repeat-x;
     padding-top: 10rem;
+    background-color: #FFF6F5;
 }
 
-a{
+h1 a{
     color: #D93654;
     text-decoration: none;
 }

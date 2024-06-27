@@ -22,7 +22,7 @@ const Header =() =>{
                         <Link to='/' className="nav-link" aria-current='page'><img src="../img/home.svg" alt="home" />Accueil</Link>
                         <Link to='/coiffure' className="nav-link" aria-current='page'><img src="../img/hair.svg" alt="hairdress" />Coiffure</Link>
                         <Link to='/wellness' className="nav-link" aria-current='page'><img src="../img/zen.svg" alt="wellness" />Bien-être</Link>
-                        <Link to='/' className="nav-link" aria-current='page'>
+                        <Link to='/esthetique' className="nav-link" aria-current='page'>
                             <div className="column">
                                 <img src="../img/manucure.svg" alt="manicure" />
                                 <img src="../img/eye.svg" alt="beauty"/>

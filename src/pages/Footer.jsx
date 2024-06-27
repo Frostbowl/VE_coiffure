@@ -38,7 +38,7 @@ const Footer =() =>{
                 <h1>Prestations</h1>
                 <Link to='/coiffure'><p>Coiffure</p></Link>
                 <Link to='/wellness'><p>Bien-être</p></Link>
-                <Link to='/'><p>Esthétique</p></Link>
+                <Link to='/esthetique'><p>Esthétique</p></Link>
                 <Link to='/contact'><p>Contact</p></Link>
             </div>
         </footer>
